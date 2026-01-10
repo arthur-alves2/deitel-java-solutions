@@ -1,0 +1,19 @@
+// This program prompts the user to enter three integers, calculates their product, and prints the result.
+// Author: Arthur Alves
+
+package chapter02.exercise06;
+
+import java.util.Scanner;
+
+public class Product {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the first integer: ");
+        int x = input.nextInt();
+        System.out.println("Enter the second integer: ");
+        int y = input.nextInt();
+        System.out.println("Enter the third integer: ");
+        int z = input.nextInt();
+        System.out.printf("Product is %d%n", x * y * z);
+    }
+}
