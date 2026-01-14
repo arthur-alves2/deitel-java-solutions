@@ -5,7 +5,7 @@ package chapter02.exercise24;
 
 import java.util.Scanner;
 
-public class LargestAndSmallest {
+public class LargestAndSmallestIntegers {
 
     public static void main(String[] args) {
 
